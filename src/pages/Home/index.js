@@ -60,7 +60,7 @@ function Home() {
                 setNowMovies(nowList);
                 setPopularMovies(popularList);
                 setTopMovies(topList);
-                setLoading(false)
+                setLoading(false);
               
             }
            
@@ -74,7 +74,6 @@ function Home() {
         
     }, []);
     function navigateDetailsPage(item){
-        console.log(item.id)
         navigation.navigate('Detail', {id: item.id})
     }
     if(loading){
