@@ -93,7 +93,7 @@ export default function Detail() {
         showsHorizontalScrollIndicator={false} />
 
         <ScrollView showsVerticalScrollIndicator={false}>
-            <Title>Descriçao</Title>
+            <Title>Descrição</Title>
             <Description>
                 {movie?.overview}
             </Description>

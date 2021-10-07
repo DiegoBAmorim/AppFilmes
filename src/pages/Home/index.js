@@ -61,9 +61,7 @@ function Home() {
                 setPopularMovies(popularList);
                 setTopMovies(topList);
                 setLoading(false);
-              
             }
-           
         }
         getMovies();
 
@@ -71,7 +69,6 @@ function Home() {
             isActive= false;
             ac.abort();
         }
-        
     }, []);
     function navigateDetailsPage(item){
         navigation.navigate('Detail', {id: item.id})

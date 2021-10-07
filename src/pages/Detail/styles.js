@@ -79,5 +79,4 @@ padding-right: 14px;
 padding-bottom: 30px;
 color: #FFF;
 line-height: 20px;
-
 `;
